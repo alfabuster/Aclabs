@@ -19,8 +19,6 @@ Path Traversal → RFI to RCE → sudo backup.sh → jesse (Flag 1)
   → Privileged container escape → host root (Flag 5)
 ```
 
-<img width="1919" height="883" alt="MITRE_ATTACK_SaveWalterWhite_aclabs pro" src="https://raw.githubusercontent.com/alfabuster/Aclabs-pro-Writeups/515b1e2ca3b3b5c4bc83a4c7cc3340434d370b6e/CTF%206%20Season/SaveWalterWhite/MITRE_ATTACK_Aclabspro_SaveWalterWhite.svg" />
-
 ## MITRE ATT&CK Mapping
 
 | Phase | Tactic | Technique | ID |
@@ -36,6 +34,8 @@ Path Traversal → RFI to RCE → sudo backup.sh → jesse (Flag 1)
 | SSH key injection via `tee` | [Persistence](https://attack.mitre.org/tactics/TA0003/) | [Account Manipulation: SSH Authorized Keys](https://attack.mitre.org/techniques/T1098/004/) | `T1098.004` |
 | SUID binary exploitation | [Privilege Escalation](https://attack.mitre.org/tactics/TA0004/) | [Abuse Elevation Control: Setuid and Setgid](https://attack.mitre.org/techniques/T1548/001/) | `T1548.001` |
 | Privileged container escape | [Privilege Escalation](https://attack.mitre.org/tactics/TA0004/) | [Escape to Host](https://attack.mitre.org/techniques/T1611/) | `T1611` |
+
+<img width="1919" height="883" alt="MITRE_ATTACK_SaveWalterWhite_aclabs pro" src="https://raw.githubusercontent.com/alfabuster/Aclabs-pro-Writeups/515b1e2ca3b3b5c4bc83a4c7cc3340434d370b6e/CTF%206%20Season/SaveWalterWhite/MITRE_ATTACK_Aclabspro_SaveWalterWhite.svg" />
 
 ## CVSS Reference
 
